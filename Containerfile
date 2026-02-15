@@ -24,8 +24,8 @@ RUN apt-get update && apt-get install -y \
     lib32readline-dev \
     lib32z1-dev \
     libelf-dev \
-    liblz4-tool \
-    libncurses5 \
+    liblz4-dev \
+    libncurses6 \
     libsdl1.2-dev \
     libssl-dev \
     libxml2 \
@@ -38,7 +38,7 @@ RUN apt-get update && apt-get install -y \
     xsltproc \
     zip \
     zlib1g-dev \
-    openjdk-11-jdk \
+    openjdk-21-jdk \
     python3 \
     python3-pip \
     repo \
